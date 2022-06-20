@@ -1,2 +1,2 @@
 # portfo
-First iteration of my personal portfolio. Built with Python.
+First iteration of my personal portfolio. Built with Flask.
