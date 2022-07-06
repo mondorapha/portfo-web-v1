@@ -23,7 +23,7 @@ def write_to_form_database(data):
                 email = data['email']
                 subject = data['subject']
                 message = data['message']
-                if(os.path.getsize('./database.txt') > 0):
+                if os.path.getsize('./database.txt') > 0:
                     if not form_database_content.endswith('\n'):
                         form_database_to_append.write('\n')
                     form_database_to_append.write(
